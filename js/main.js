@@ -1,9 +1,9 @@
-$("nav > ul > li").mouseover(function(){
-    $(".submenu").stop().fadeIn();
-});
-$("nav > ul > li").mouseleave(function(){
-    $(".submenu").stop().fadeOut(); 
-});
+// $("nav > ul > li").mouseover(function(){
+//     $(".submenu").stop().fadeIn();
+// });
+// $("nav > ul > li").mouseleave(function(){
+//     $(".submenu").stop().fadeOut(); 
+// });
 
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
@@ -34,12 +34,15 @@ var swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 3000,
       },
+    centeredSlides : true,
+    // centeredSlidesBounds :true,
+    loop: true
       
   });
 
   var swiper = new Swiper('.swiper-container3', {
     slidesPerView: 5,
-    spaceBetween: 30,
+    spaceBetween: 50,
     // centeredSlides: true,
     pagination: {
       el: '.swiper-pagination',
@@ -48,6 +51,9 @@ var swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 3000,
       },
+    // centeredSlidesBounds :true,
+    centeredSlides : true,
+    loop: true
       
   });
 

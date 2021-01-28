@@ -2,13 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
 * { margin: 0; padding: 0; bottom: 0; font-family: 'Noto Sans KR', sans-serif; }
 
+.wrap { width: 100%; overflow-x: hidden; }
+
 .clearfix:active, .clearfix::before { content: ''; clear: both; display: block; }
 
 ul { list-style: none; }
 
 a { text-decoration: none; }
 
-header { height: 100px; }
+header { height: 100px; width: 100%; }
 
 section { height: 700px; }
 
@@ -36,7 +38,7 @@ section .swiper-container3 .swiper-wrapper .swiper-slide a img { display: block;
 
 .menulist p, .menulist2 p { text-align: center; color: #ffe282; font-weight: bold; padding: 20px 0 40px 0; }
 
-footer { height: 100px; }
+footer { height: 200px; background-color: #282828; }
 
 .logo { float: left; width: 20%; height: 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
@@ -44,11 +46,11 @@ footer { height: 100px; }
 
 .headerCenter { float: left; width: 60%; height: 100px; }
 
-.headerCenter ul li { float: left; width: 25%; text-align: center; height: 100px; position: relative; }
+.headerCenter ul li { float: left; width: 25%; text-align: center; height: 100px; }
 
 .headerCenter ul li a { line-height: 100px; color: black; display: block; font-weight: bold; }
 
-.headerCenter ul li .submenu { display: none; position: absolute; z-index: 9999999; top: 100px; width: 100%; }
+.headerCenter ul li .submenu { position: absolute; display: none; z-index: 9999999; top: 0; left: 0; width: 100%; }
 
 .headerCenter ul li .submenu li { width: 100%; background-color: white; }
 
@@ -73,3 +75,5 @@ body { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14p
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev { right: 100px; }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next { left: 100px; }
+
+.swiper-slide-active { -webkit-transform: scale(1.1); transform: scale(1.1); }
