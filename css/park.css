@@ -77,3 +77,5 @@ body { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14p
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next { left: 100px; }
 
 .swiper-slide-active { -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+.hidden { display: none; }
