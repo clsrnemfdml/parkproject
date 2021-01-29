@@ -28,7 +28,7 @@ section .swiper-container3 .swiper-wrapper .swiper-slide a { display: block; wid
 
 section .swiper-container3 .swiper-wrapper .swiper-slide a img { display: block; height: 100%; width: 100%; position: relative; }
 
-.list { background-color: #b49367; height: 200px; }
+.list { background-color: #b49367; height: 200px; overflow-y: hidden; overflow-x: hidden; }
 
 .menulist, .menulist2 { height: 90vh; background-color: black; background-image: url("/images/배경화면1.png"); }
 
