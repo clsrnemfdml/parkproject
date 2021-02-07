@@ -19,12 +19,12 @@ var swiper = new Swiper('.swiper-container', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
+    },
 
-    }
   });
 
   var swiper = new Swiper('.swiper-container2', {
-    slidesPerView: 8,
+    slidesPerView: 2,
     spaceBetween: 30,
     // centeredSlides: true,
     pagination: {
@@ -36,13 +36,24 @@ var swiper = new Swiper('.swiper-container', {
       },
     centeredSlides : true,
     // centeredSlidesBounds :true,
-    loop: true
+    loop: true,
+    breakpoints:{
+      1024:{
+        slidesPerView:5,
+      },
+      768: {
+        slidesPerView:4,
+      },
+      640:{
+        slidesPerView:2,
+      },
+    }
       
   });
 
   var swiper = new Swiper('.swiper-container3', {
-    slidesPerView: 5,
-    spaceBetween: 50,
+    slidesPerView: 1.3,
+    spaceBetween: 40,
     // centeredSlides: true,
     pagination: {
       el: '.swiper-pagination',
@@ -53,7 +64,18 @@ var swiper = new Swiper('.swiper-container', {
       },
     // centeredSlidesBounds :true,
     centeredSlides : true,
-    loop: true
+    loop: true,
+    breakpoints:{
+      1024:{
+        slidesPerView:4,
+      },
+      768: {
+        slidesPerView:3,
+      },
+      376:{
+        slidesPerView:2,
+      }
+    }
       
   });
 

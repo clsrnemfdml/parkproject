@@ -15,13 +15,13 @@ ul{list-style: none;}
 a{text-decoration: none;}
 
 header{height: 100px; width: 100%;}
-section{height: 700px;
+section{width: 100%; height: 80vh;
     .swiper-container{
         .swiper-wrapper{
             .swiper-slide{
                 img{
                     display: block;
-                    height: 700px;
+                    height: 100%;
                     width: 100%;
                 }
             }
@@ -100,8 +100,15 @@ section{height: 700px;
         }
     }
 }
-.list{background-color: rgb(180, 147, 103); height: 200px; overflow-y: hidden; overflow-x: hidden;}
-.menulist, .menulist2{height: 90vh;
+.list{background-color: rgb(180, 147, 103); height: 20vh; overflow-y: hidden; overflow-x: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+.menulist, .menulist2{min-height: 800px;
+    overflow: hidden;
     background-color: black;
     background-image: url('/images/배경화면1.png');
     .menu{
