@@ -258,3 +258,17 @@ body {
 }
 
 
+@media (min-width:368px){
+    .swiper-container{
+        .swiper-wrapper{
+            .swiper-slide{
+                width: 368px;
+                height: 368px;
+                img{
+                    display: block;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

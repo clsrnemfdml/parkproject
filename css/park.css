@@ -1,251 +1,83 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  bottom: 0;
-  font-family: 'Noto Sans KR', sans-serif;
-}
+* { margin: 0; padding: 0; bottom: 0; font-family: 'Noto Sans KR', sans-serif; }
 
-.wrap {
-  width: 100%;
-  overflow-x: hidden;
-}
+.wrap { width: 100%; overflow-x: hidden; }
 
-.clearfix:active, .clearfix::before {
-  content: '';
-  clear: both;
-  display: block;
-}
+.clearfix:active, .clearfix::before { content: ''; clear: both; display: block; }
 
-ul {
-  list-style: none;
-}
+ul { list-style: none; }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-header {
-  height: 100px;
-  width: 100%;
-}
+header { height: 100px; width: 100%; }
 
-section {
-  width: 100%;
-  height: 80vh;
-}
+section { width: 100%; height: 80vh; }
 
-section .swiper-container .swiper-wrapper .swiper-slide img {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
+section .swiper-container .swiper-wrapper .swiper-slide img { display: block; height: 100%; width: 100%; }
 
-section .swiper-container2 {
-  height: 300px;
-}
+section .swiper-container2 { height: 300px; }
 
-section .swiper-container2 .swiper-wrapper .swiper-slide a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
+section .swiper-container2 .swiper-wrapper .swiper-slide a { display: block; width: 100%; height: 100%; cursor: pointer; }
 
-section .swiper-container2 .swiper-wrapper .swiper-slide a img {
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
+section .swiper-container2 .swiper-wrapper .swiper-slide a img { display: block; height: 100%; width: 100%; position: relative; }
 
-section .swiper-container3 {
-  height: 300px;
-}
+section .swiper-container3 { height: 300px; }
 
-section .swiper-container3 .swiper-wrapper .swiper-slide a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
+section .swiper-container3 .swiper-wrapper .swiper-slide a { display: block; width: 100%; height: 100%; cursor: pointer; }
 
-section .swiper-container3 .swiper-wrapper .swiper-slide a img {
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
+section .swiper-container3 .swiper-wrapper .swiper-slide a img { display: block; height: 100%; width: 100%; position: relative; }
 
-.list {
-  background-color: #b49367;
-  height: 20vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
+.list { background-color: #b49367; height: 20vh; overflow-y: hidden; overflow-x: hidden; }
 
-.list img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+.list img { width: 100%; height: 100%; display: block; }
 
-.menulist, .menulist2 {
-  min-height: 800px;
-  overflow: hidden;
-  background-color: black;
-  background-image: url("/images/배경화면1.png");
-}
+.menulist, .menulist2 { min-height: 800px; overflow: hidden; background-color: black; background-image: url("/images/배경화면1.png"); }
 
-.menulist .menu, .menulist2 .menu {
-  text-align: center;
-  font-size: 60px;
-  padding: 140px 0 10px 0;
-  color: #ffe282;
-  font-weight: bold;
-}
+.menulist .menu, .menulist2 .menu { text-align: center; font-size: 60px; padding: 140px 0 10px 0; color: #ffe282; font-weight: bold; }
 
-.menulist .menu::after, .menulist2 .menu::after {
-  padding: 10px 0;
-  content: '';
-  display: block;
-  width: 5%;
-  height: 1px;
-  margin: 0 auto;
-  border-bottom: 4px solid;
-}
+.menulist .menu::after, .menulist2 .menu::after { padding: 10px 0; content: ''; display: block; width: 5%; height: 1px; margin: 0 auto; border-bottom: 4px solid; }
 
-.menulist p, .menulist2 p {
-  text-align: center;
-  color: #ffe282;
-  font-weight: bold;
-  padding: 20px 0 40px 0;
-}
+.menulist p, .menulist2 p { text-align: center; color: #ffe282; font-weight: bold; padding: 20px 0 40px 0; }
 
-footer {
-  height: 200px;
-  background-color: #282828;
-}
+footer { height: 200px; background-color: #282828; }
 
-.logo {
-  float: left;
-  width: 20%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.logo { float: left; width: 20%; height: 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.logo img {
-  display: block;
-  width: 100px;
-}
+.logo img { display: block; width: 100px; }
 
-.headerCenter {
-  float: left;
-  width: 60%;
-  height: 100px;
-}
+.headerCenter { float: left; width: 60%; height: 100px; }
 
-.headerCenter ul li {
-  float: left;
-  width: 25%;
-  text-align: center;
-  height: 100px;
-}
+.headerCenter ul li { float: left; width: 25%; text-align: center; height: 100px; }
 
-.headerCenter ul li a {
-  line-height: 100px;
-  color: black;
-  display: block;
-  font-weight: bold;
-}
+.headerCenter ul li a { line-height: 100px; color: black; display: block; font-weight: bold; }
 
-.headerCenter ul li .submenu {
-  position: absolute;
-  display: none;
-  z-index: 9999999;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+.headerCenter ul li .submenu { position: absolute; display: none; z-index: 9999999; top: 0; left: 0; width: 100%; }
 
-.headerCenter ul li .submenu li {
-  width: 100%;
-  background-color: white;
-}
+.headerCenter ul li .submenu li { width: 100%; background-color: white; }
 
-.headerCenter ul li .submenu li a {
-  display: block;
-}
+.headerCenter ul li .submenu li a { display: block; }
 
-.headerRight {
-  float: left;
-  width: 20%;
-  height: 100px;
-  box-sizing: border-box;
-  padding: 25px 10px 25px 50px;
-}
+.headerRight { float: left; width: 20%; height: 100px; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 25px 10px 25px 50px; }
 
-.headerRight div {
-  border-bottom: 2px solid black;
-  margin: 10px;
-  width: 35px;
-}
+.headerRight div { border-bottom: 2px solid black; margin: 10px; width: 35px; }
 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
+html, body { position: relative; height: 100%; }
 
-body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
+body { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color: #000; margin: 0; padding: 0; }
 
-.swiper-container, .swiper-container2 {
-  width: 100%;
-  height: 100%;
-}
+.swiper-container, .swiper-container2 { width: 100%; height: 100%; }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.swiper-slide { text-align: center; font-size: 18px; background: #fff; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after,
-.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
-  color: white;
-  font-size: 100px;
-}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after { color: white; font-size: 100px; }
 
-.swiper-pagination-bullet .swiper-pagination-bullet-active {
-  color: white;
-  font-size: 100px;
-}
+.swiper-pagination-bullet .swiper-pagination-bullet-active { color: white; font-size: 100px; }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-  right: 100px;
-}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev { right: 100px; }
 
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-  left: 100px;
-}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next { left: 100px; }
 
-.swiper-slide-active {
-  transform: scale(1.1);
-}
+.swiper-slide-active { -webkit-transform: scale(1.1); transform: scale(1.1); }
 
-.hidden {
-  display: none;
-}
+.hidden { display: none; }
